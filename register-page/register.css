@@ -1,0 +1,115 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  height: 100%;
+}
+
+.background {
+  background: url('../assets/bg-login.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 30px;
+  border-radius: 10px;
+  color: #fff;
+  width: 300px;
+  text-align: center;
+}
+
+.login-container h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.login-container p {
+  margin-bottom: 20px;
+  margin-top: -10px;
+  font-size: 16px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  text-align: left;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 25px;
+  border: none;
+  border-radius: 25px;
+}
+
+/* button {
+  
+} */
+
+.Masuk {
+padding: 10px;
+background-color: #626060;
+color: white;
+border: none;
+border-radius: 25px;
+cursor: pointer;
+width: 300px;
+margin-top: 20px;
+}
+
+.Masuk:hover {
+  background-color: #07930c;
+}
+
+.options {
+  margin-top: -20px;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.options a {
+  color: #ccc;
+  text-decoration: none;
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.options span {
+    font-weight: lighter;
+}
+
+.divider {
+  margin: 8px 0;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.google-login {
+background-color: #4285F4;
+padding: 10px;
+background-color: #120101;
+color: white;
+border: none;
+border-radius: 25px;
+cursor: pointer;
+width: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+
+.google-login:hover {
+  background-color: #357ae8;
+}
